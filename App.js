@@ -16,7 +16,7 @@ function App() {
       <Stack.Navigator>
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Result" component={Result} />
-        <Stack.Screen name="TFlow" component={TFlow} />
+        {/* <Stack.Screen name="TFlow" component={TFlow} /> */}
       </Stack.Navigator>
     </NavigationContainer>
   );
